@@ -25,6 +25,7 @@ header {
   align-items: center;
   padding-top: 20px;
 }
+
 .header-menu {
   display: flex;
   gap: 20px;
@@ -55,4 +56,14 @@ header {
   display: flex;
   justify-content: center;
   font-size: 26px;
+}
+.presentation {
+  background-color: #f5edda;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 50%;
+  margin: auto;
 }
