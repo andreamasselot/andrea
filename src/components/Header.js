@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <>
-      <div>
+      <div className="page-title">
         <h1>Andréa Masselot</h1>
       </div>
     </>
