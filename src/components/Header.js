@@ -1,10 +1,15 @@
 const Header = () => {
   return (
-    <>
-      <div className="page-title">
-        <h1>Andréa Masselot</h1>
+    <header>
+      <div>
+        <nav className="header-menu">
+          <button>Skills</button>
+          <button>Projects</button>
+          <button>About Me</button>
+          <button>Contact</button>
+        </nav>
       </div>
-    </>
+    </header>
   );
 };
 export default Header;

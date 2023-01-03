@@ -1,5 +1,10 @@
 body {
   background-color: #1b1212;
+  font-family: "Mulish", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
 h1,
 h2,
@@ -12,4 +17,24 @@ a {
 }
 button {
   cursor: pointer;
+}
+header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 20px;
+}
+.header-menu {
+  display: flex;
+  gap: 20px;
+}
+.page-title {
+  border-bottom: 2px solid #f5edda;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: auto;
+  width: 30%;
+  margin-top: 50px;
 }

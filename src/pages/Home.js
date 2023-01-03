@@ -4,7 +4,9 @@ const Home = () => {
     <>
       <Header />
       <section>
-        <p>HOME</p>
+        <div className="page-title">
+          <h1>Andréa Masselot</h1>
+        </div>
       </section>
     </>
   );
