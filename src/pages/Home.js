@@ -1,4 +1,10 @@
 import Header from "../components/Header";
+import netflix from "../assets/img/netflix.png";
+import tripAdvisor from "../assets/img/TripAdvisor.png";
+import marvel from "../assets/img/marvel.png";
+import remix from "../assets/img/remix.png";
+import vinted from "../assets/img/vinted.png";
+import happyCow from "../assets/img/HappyCow.png";
 const Home = () => {
   return (
     <>
