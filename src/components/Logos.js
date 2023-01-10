@@ -41,7 +41,7 @@ const Logos = () => {
           <img src={mongodb} alt="logo " />
           <caption>MongoDB</caption>
         </div>
-        <div className="logo">
+        <div className="logo northflank">
           <img src={northflank} alt="logo " />
           <caption>Northflank</caption>
         </div>
