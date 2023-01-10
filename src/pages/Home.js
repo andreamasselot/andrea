@@ -23,13 +23,24 @@ const Home = () => {
             sapiente voluptatum officiis deserunt! Rem fugit unde ea facilis?
           </p>
         </div>
-
-        <div className="container"></div>
+      </section>
+      <section className="about-me container">
+        <div>
+          <h2>About Me</h2>
+        </div>
+        <div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          placeat cumque minus nulla? Quis laboriosam consectetur deserunt
+          officia voluptatum maiores vero vitae quod ea veniam. Tempore
+          distinctio deleniti tempora accusantium? Quis rem ab soluta suscipit
+          quidem. Dolorum aut nihil sed magnam aperiam, illum quisquam, maiores
+          voluptatum adipisci necessitatibus accusamus. At?
+        </div>
+        <div className="about-me-content"></div>
       </section>
       <section className="my-projects">
         <h1>My Projects</h1>
         <div className="projects">
-          {" "}
           <CardProject
             image={netflix}
             title="Netflix"
