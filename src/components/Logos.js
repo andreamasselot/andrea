@@ -53,11 +53,26 @@ const Logos = () => {
           <img src={androidStudio} alt="logo " />
           <caption>Android Studio</caption>
         </div>
-        <img src={xCode} alt="logo " />
-        <img src={gitHub} alt="logo " />
-        <img src={vsCode} alt="logo " />
-        <img src={expo} alt="logo " />
-        <img src={mui} alt="logo " />
+        <div className="logo">
+          <img src={xCode} alt="logo " />
+          <caption>XCode</caption>
+        </div>
+        <div className="logo">
+          <img src={gitHub} alt="logo " />
+          <caption>Git Hub</caption>
+        </div>
+        <div className="logo">
+          <img src={vsCode} alt="logo " />
+          <caption>VSCODE</caption>
+        </div>
+        <div className="logo">
+          <img src={expo} alt="logo " />
+          <caption>Expo</caption>
+        </div>
+        <div className="logo">
+          <img src={mui} alt="logo " />
+          <caption>Materiel UI</caption>
+        </div>
       </section>
     </>
   );
