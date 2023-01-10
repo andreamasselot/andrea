@@ -16,7 +16,7 @@ import xCode from "../assets/img/icontech/xCode.png";
 const Logos = () => {
   return (
     <>
-      <section>
+      <section className="logo-container">
         <img src={HTML} alt="logo" />
         <img src={css} alt="logo " />
         <img src={js} alt="logo " />

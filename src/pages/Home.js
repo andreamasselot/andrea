@@ -6,6 +6,7 @@ import marvel from "../assets/img/Marvel.png";
 import remix from "../assets/img/Remix.png";
 import vinted from "../assets/img/Vinted.png";
 import happyCow from "../assets/img/HappyCow.png";
+import Logos from "../components/Logos";
 const Home = () => {
   return (
     <>
@@ -27,6 +28,9 @@ const Home = () => {
       <section className="about-me container">
         <div>
           <h2>About Me</h2>
+        </div>
+        <div>
+          <Logos />
         </div>
         <div>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet

@@ -92,3 +92,6 @@ header {
 .about-me h2 {
   font-size: 30px;
 }
+.logo-container img {
+  width: 80px;
+}
