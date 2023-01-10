@@ -7,6 +7,11 @@ import express from "../assets/img/icontech/express.svg";
 import css from "../assets/img/icontech/css.svg";
 import gitHub from "../assets/img/icontech/gitHub.svg";
 import js from "../assets/img/icontech/js.svg";
+import HTML from "../assets/img/icontech/HTML.svg";
+import mongodb from "../assets/img/icontech/mongo.svg";
+import northflank from "../assets/img/icontech/northflank.png";
+import expo from "../assets/img/icontech/expo.png";
+import xCode from "../assets/img/icontech/xCode.png";
 
 const Logos = () => {
   return (
