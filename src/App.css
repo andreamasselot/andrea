@@ -92,6 +92,22 @@ header {
 .about-me h2 {
   font-size: 30px;
 }
+.logo-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin-top: 30px;
+}
 .logo-container img {
   width: 80px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }

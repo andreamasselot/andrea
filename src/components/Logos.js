@@ -17,15 +17,42 @@ const Logos = () => {
   return (
     <>
       <section className="logo-container">
-        <img src={HTML} alt="logo" />
-        <img src={css} alt="logo " />
-        <img src={js} alt="logo " />
-        <img src={react} alt="logo " />
-        <img src={node} alt="logo " />
-        <img src={mongodb} alt="logo " />
-        <img src={northflank} alt="logo " />
-        <img src={express} alt="logo " />
-        <img src={androidStudio} alt="logo " />
+        <div className="logo">
+          <img src={HTML} alt="logo" />
+          <caption>HTML 5</caption>
+        </div>
+        <div className="logo">
+          <img src={css} alt="logo " />
+          <caption>CSS 3</caption>
+        </div>
+        <div className="logo">
+          <img src={js} alt="logo " />
+          <caption>JavaScript</caption>
+        </div>
+        <div className="logo">
+          <img src={react} alt="logo " />
+          <caption>React</caption>
+        </div>
+        <div className="logo">
+          <img src={node} alt="logo " />
+          <caption>Node.js</caption>
+        </div>
+        <div className="logo">
+          <img src={mongodb} alt="logo " />
+          <caption>MongoDB</caption>
+        </div>
+        <div className="logo">
+          <img src={northflank} alt="logo " />
+          <caption>Northflank</caption>
+        </div>
+        <div className="logo">
+          <img src={express} alt="logo " />
+          <caption>Express</caption>
+        </div>
+        <div className="logo">
+          <img src={androidStudio} alt="logo " />
+          <caption>Android Studio</caption>
+        </div>
         <img src={xCode} alt="logo " />
         <img src={gitHub} alt="logo " />
         <img src={vsCode} alt="logo " />
