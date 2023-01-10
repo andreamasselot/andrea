@@ -17,7 +17,20 @@ const Logos = () => {
   return (
     <>
       <section>
-        <p>COUCOU</p>
+        <img src={HTML} alt="logo" />
+        <img src={css} alt="logo " />
+        <img src={js} alt="logo " />
+        <img src={react} alt="logo " />
+        <img src={node} alt="logo " />
+        <img src={mongodb} alt="logo " />
+        <img src={northflank} alt="logo " />
+        <img src={express} alt="logo " />
+        <img src={androidStudio} alt="logo " />
+        <img src={xCode} alt="logo " />
+        <img src={gitHub} alt="logo " />
+        <img src={vsCode} alt="logo " />
+        <img src={expo} alt="logo " />
+        <img src={mui} alt="logo " />
       </section>
     </>
   );
